@@ -1,5 +1,7 @@
+import time #Para generar pausa
+import datetime #Para generar fecha/hora actual
 #Mi carnet es 201700722
-Numero=5
+Numero=722
 Lista=[]
 bandera=True
 cont=0
@@ -19,6 +21,7 @@ for i in range(2,Numero):                   #For de 2 hasta 722
             Lista.append(1)
         #archivo.write(Lista)                    #Escribe la lista en en el archivo
         print(Lista)
+    archivo.write(str(Lista))
 archivo.close()
 
 
